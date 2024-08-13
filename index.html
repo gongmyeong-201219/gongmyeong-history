@@ -130,11 +130,56 @@ SOFTWARE. -->
 
 <div class="hello">
 </div>
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function() {
     const text = `고성수(高性秀)<br>
     1981. 9. 19. ~ 2024. 7. 7.<br><br>
     전 '백림파'의 일원이었으나, 조직의 괴멸 이후 '진재백'의 제안으로 '공명'에 흡수되어 부사장 자리를 꿰찼다.<br>
+    조직이 빠르게 성장하면 할수록 더 높은 지위를 향한 갈망으로 애가 닳았다.<br>
+    야욕에 눈이 먼 그는 중국 각지에 흩어진 전 백림의 세력을 모아 홍콩에 위치시켰다.<br><br>
+    그렇게 호시탐탐 기회를 엿보던 중,<br>
+    6월 30일 현장 인원의 분산을 노려 제1구역에서 통제 중이던 준, 서 헌, 오세진 외 다수를 급습.<br>
+    주요 인물 제거를 통해 조직의 힘을 약화시키려던 계획이 실패로 돌아가고,<br>
+    삽시간에 포진한 조직원들에 의하여 구속된다.<br>
+    모진 고문에 잔존 세력의 위치를 발설했으나 결국 죽음을 맞이하게 된다.`;
+    const target = document.querySelector(".hello");
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        if (text.charAt(index) === '<') {
+          const endTagIndex = text.indexOf('>', index);
+          if (endTagIndex !== -1) {
+            target.innerHTML += text.substring(index, endTagIndex + 1);
+            index = endTagIndex + 1;
+          }
+        } else {
+          target.innerHTML += text.charAt(index);
+          index++;
+        }
+        setTimeout(type, 50); // 타이핑 속도 조절 (100ms)
+      }
+    }
+
+    type();
+  });
+</script> -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const text = `오세진(吳世辰)<br>
+    1990. 10. 17. ~ 2024. 8. 11.<br><br>
+    '공명'의 일원이었으나, 어쩌고 저째서 뭐 어쩌고....<br>
+    조직이 빠르게 성장하면 할수록 더 높은 지위를 향한 갈망으로 애가 닳았다.<br>
+    야욕에 눈이 먼 그는 중국 각지에 흩어진 전 백림의 세력을 모아 홍콩에 위치시켰다.<br><br>
+    그렇게 호시탐탐 기회를 엿보던 중,<br>
+    6월 30일 현장 인원의 분산을 노려 제1구역에서 통제 중이던 준, 서 헌, 오세진 외 다수를 급습.<br>
+    주요 인물 제거를 통해 조직의 힘을 약화시키려던 계획이 실패로 돌아가고,<br>
+    삽시간에 포진한 조직원들에 의하여 구속된다.<br>
+    모진 고문에 잔존 세력의 위치를 발설했으나 결국 죽음을 맞이하게 된다.<br><br><br>
+    구기현(具期玄)<br>
+    1989. 2. 6. ~ 2024. 8. 11.<br><br>
+    '공명'의 일원이었으나, 어쩌고 저째서 뭐 어쩌고....<br>
     조직이 빠르게 성장하면 할수록 더 높은 지위를 향한 갈망으로 애가 닳았다.<br>
     야욕에 눈이 먼 그는 중국 각지에 흩어진 전 백림의 세력을 모아 홍콩에 위치시켰다.<br><br>
     그렇게 호시탐탐 기회를 엿보던 중,<br>
